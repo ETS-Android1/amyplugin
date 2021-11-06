@@ -11,7 +11,7 @@ project.ext{
 	RP_LICENSES_NAME = 'Apache-2.0'
 	//
 	RP_GROUP = 'com.amy.plugin'
-	RP_VERSION = '2.3.4.3'
+	RP_VERSION = '2.3.4.4'
 	RP_NEXUS_USERNAME = 'MobileDev'
 	RP_NEXUS_PASSWORD = 'MArIciO1ecHm'
 }

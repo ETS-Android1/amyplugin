@@ -34,7 +34,7 @@ public class ReClassPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
 
-        println "${AppConstant.TAG} Welcome to replugin world ! "
+        println "${AppConstant.TAG} Welcome to amyplugin world ! "
 
         /* Extensions */
         project.extensions.create(AppConstant.USER_CONFIG, ReClassConfig)
@@ -137,6 +137,8 @@ public class ReClassPlugin implements Plugin<Project> {
             def transform = new ReClassTransform(project)
             // 将 transform 注册到 android
             android.registerTransform(transform)
+        }else{
+            println ">>> 插件位置不对 isApp: " + isApp
         }
     }
 }
